@@ -1,2 +1,16 @@
-# _001_Student_Performance_Predictor_Regression
-This project builds a machine learning pipeline to predict student exam scores based on study and lifestyle factors. The model is trained with Linear Regression and deployed as a Flask API, allowing users to send student data as JSON and receive predicted exam scores.
+# Student Performance Prediction API
+
+This project uses a Linear Regression model to predict student exam scores.
+
+## Files
+- `app.py` → Flask API
+- `model.pkl` → Trained model
+- `notebook.ipynb` → Training notebook
+- `requirements.txt` → Dependencies
+
+## How to Run
+1. Clone this repo
+2. Create a virtual environment
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
