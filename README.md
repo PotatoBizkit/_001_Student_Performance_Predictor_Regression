@@ -14,3 +14,9 @@ This project uses a Linear Regression model to predict student exam scores.
 3. Install dependencies:
    ```bash
    pip install -r requirements.txt
+4. Start the server:
+   ```bash
+   python app.py
+5. Test with curl / Postman:
+   ```bash
+   curl.exe -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d "{\"features\": [values_here]}"
