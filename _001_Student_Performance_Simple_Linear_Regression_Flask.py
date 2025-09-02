@@ -13,11 +13,10 @@ def home():
 @app.route("/predict", methods=["POST"])
 def predict():
     try:
-        # Get data from request
+        
         data = request.json
         features = np.array(data["features"]).reshape(1, -1)
 
-        # Make prediction
         prediction = model.predict(features)[0]
 
         return jsonify({"prediction": prediction})
