@@ -4,8 +4,8 @@ This project uses a Linear Regression model to predict student exam scores.
 
 ## Files
 - `_001_Student_Performance_Simple_Linear_Regression_Flask.py` → Flask API
-- `model.pkl` → Trained model
-- `notebook.ipynb` → Training notebook
+- `_001_Student_Performance_Simple_Linear_Regression.pkl` → Trained model
+- `_001_Student_Performance_Simple_Linear_Regression.ipynb` → Training notebook
 - `requirements.txt` → Dependencies
 
 ## How to Run
